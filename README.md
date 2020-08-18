@@ -44,3 +44,10 @@ The result should be this structure:
         │               └──Indiance(Original Mix).mp3
         ├── _dump
         └── processor.py
+
+
+## To-Do
+* add support for other formats. Mainly .wav but also .flac and .aiff/.aif/.aifc
+* add all new sorted songs to a rekordbox playlist for easier tagging/rating workflow
+    * iTunes might be an alternative, but rekordbox should be possible since it uses XML playlists
+    
