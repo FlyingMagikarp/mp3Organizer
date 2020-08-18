@@ -15,7 +15,7 @@ If a ID3 tag is empty, it gets replaced by the default value "none"
 
 
 ## Arguments
-The script takes 2 arguments: Source & Destination. Both are **relative** paths to the respective directories.
+The script takes 2 arguments: Source & Destination. Both are ***relative*** paths to the respective directories.
 
 The Script will loop through the source directory, move the files and delete empty subdirectories(except the source itself)
 
