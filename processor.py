@@ -77,7 +77,15 @@ def generateFile(filepath):
     artist = artist.replace('/', '-')
     album = album.replace('/', '-')
     genre = genre.replace('/', '-')
+    genre = simplifyTechno(genre)
     return MusicFile(title, artist, album, genre, filename, filepath)
+
+
+def simplifyTechno(genre):
+    if 'Techno' in genre or 'techno' in genre:
+        return 'Techno'
+    else:
+        return genre
 
 
 def sortFiles(sourceRoot, destinationRoot):
